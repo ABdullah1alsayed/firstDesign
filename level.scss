@@ -1,0 +1,495 @@
+/*505 lines*/
+
+$backColorGray:#888;
+$backColorwhite:white;
+$fontColor:black;
+$navBackColor:#252F31;
+
+*{
+    box-sizing: border-box;
+}
+body {
+color: $fontColor;
+
+height: 4000px;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+/*start header*/
+header{
+
+    .slider {
+        height: 600px;
+        background-image: url('code.jpg');
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+        .container{
+
+            .intro {
+                text-align: center;
+                padding-top: 200px;
+                color: goldenrod;
+                h2 {
+                    margin:0 auto;
+                    font-size:50px;
+                    width:600px;
+                    border-top:3px solid;
+                    border-bottom:3px solid;
+                    padding:5px 0;
+                }
+                button {
+                    margin-top: 30px;
+                    font-size: 30px;
+                    border: 2px solid;
+                    background: none;
+                    color: #DDD8D4;
+                    font-weight: bold;
+                    padding: 10px 35px;
+                    color: goldenrod;
+                }
+                    
+                }
+                }
+            }
+        }
+    
+    nav{
+        background-color: $navBackColor;
+        color:$backColorwhite;
+        overflow: hidden;
+        text-transform:capitalize ;
+        h2 {
+            float: left;
+            span{
+                color:#2DCC70;
+            }
+        }
+        ul {
+            list-style: none;
+            padding-left: 0px;
+            overflow: hidden;
+            float: right;
+            li{
+                padding: 10px;       
+               
+                a{
+                    color:white;
+                    text-decoration: none;
+                    &:hover{
+                        color: #268E52
+                }
+            }
+        }
+        & ,.active {
+            color: #268E52
+            
+            }
+        }
+    }
+
+/*end header*/
+
+/* start features*/    
+    .features {
+       overflow: hidden;
+       padding-top: 20px;
+       padding-bottom: 20px;
+    
+    .container{
+        
+        .feat{
+            width: 33.333333%;
+            height: 190px;
+        h2{
+            color: #444;
+            text-transform:capitalize;
+        }
+        p{
+            line-height: 1.5;
+            color: #888;
+        }
+        }
+    }
+}
+/*end features*/
+
+/*start about me*/
+.about-me {
+    background-color: #F2F2F2;
+    overflow: hidden;
+
+    .container{
+        .full {
+            width: 40%;
+        img{
+            width: 100%;
+            float: left;
+            display: block;
+        }
+    }
+}
+
+        .info{
+            width: 60%;
+            padding-left: 40px;
+            h2{
+                font-weight: bold;
+            }
+           & > p{
+            color: #666;
+            margin: 0 0 10px 20px;  
+            line-height: 1.8;
+            }
+            & p:last-of-type{
+                margin-top: 30px;
+            }
+            .hobbies {
+                margin: 20px;
+                overflow: hidden;
+                .content{
+                    width: 50%;
+                    overflow: hidden;
+                    min-height:100px ;
+                .icon{
+                    width: 12%;
+                    margin-right: 5%;
+                    img{
+                        max-width: 100%;
+                        margin: 20px 10px 0 0;
+                    }
+                 }
+                 .text {
+                     
+                     width: 83%;
+                 }
+                }
+            }
+        }
+    }
+
+
+/*end about me*/
+
+
+/* shart skills*/
+.myskills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    .skills{
+        width: 50%;
+        
+        padding-left: 40px;
+        margin-right: 5%;
+        h2{
+        font-weight: bold;
+            }
+        & > p{
+        color: #666;
+        margin: 0 0 10px 0;  
+        line-height: 1.8;
+        }
+        & p:last-of-type{
+            margin-top: 30px;
+        }
+        button {
+            border: 2px  solid #2DCC70;
+            color:#2DCC70;
+            padding: 10px;
+            font-size: 15px;
+            background-color: $backColorwhite;
+            margin-top: 25px;
+            text-transform: capitalize;
+            font-weight: bold;
+            width: 150px;
+        }
+    }
+    .progress{
+        width: 45%;
+        float: left;
+
+        .techinq{
+
+            h3 {
+                color: #555;
+            }
+            div{
+                background-color:#F2F2F2;
+                height: 25PX;
+                span{
+                    background-color: #2DCC70;
+                   line-height: 25px;
+                    display: block;
+                    text-align: right;
+                    padding-top: 2px;
+                }
+            }
+        }
+    }
+}
+/* end shills*/
+ 
+/*start resume*/
+section{
+background-color: #F2F2F2;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+overflow: hidden;
+
+h2 {
+text-transform: uppercase;
+}
+p{
+    color: #666;
+    line-height: 1.6;
+}
+button {
+    margin-top: 30px;
+}
+    }
+
+/*end resume*/
+
+/* start education*/
+.education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    .main{
+        
+        width: 50%;
+        padding-left: 40px;
+        margin-right: 5%;
+        h2{
+        font-weight: bold;
+            }
+        & > p{
+        color: #666;
+        margin: 0 0 10px 0;  
+        line-height: 1.8;
+        }
+        & p:last-of-type{
+            margin-top: 30px;
+        } 
+    }
+    .exp {
+        width: 45%;
+       
+        h3 {
+            margin-top: 80px;
+            margin-bottom: 10px;
+        }
+        span {
+            display: block;
+            margin-bottom: 10px;
+        }
+        span:first-of-type{
+            color:#999;
+        }
+        span:last-of-type{
+            background-color: #2DCC70;
+            color: #FFF;
+            display: inline-block;
+            padding: 4px 10px;
+        }
+        p{
+            color: #666;
+        margin: 0 0 5px 0;  
+        line-height: 1.5;
+        }
+       
+    }
+    hr{
+        margin: 20px 0;
+        background-color:  #999;
+        height: 1px;
+        border: 0;
+}
+        
+        
+
+}
+
+
+/* end education*/
+
+/*start testmonials*/
+section{
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    
+    q{
+        
+        color: #888;
+        font: italic bold 19px/1.7 Arial
+    }
+    ul{ list-style: none;
+        padding-left: 0;
+        text-align: center;
+    li{
+        width: 13px;
+        height: 13px;
+        border: 2px solid #2DCC70;
+        display: inline-block;
+        cursor: pointer;
+        
+        &.active, &:hover {
+            background-color: #2DCC70;
+        }
+    }
+}
+}
+    
+    /*end testmonials*/
+     
+    /*start portfolio*/
+        .portfolio {
+            
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: $backColorwhite;
+            .container{
+                .our-work{
+                    overflow: hidden;
+                    & > div{
+                        width: 33.33333%;
+                        margin-bottom: 15px;
+                    
+                        img {
+                            width: 92%;
+                            padding:3px  ;
+                            border: 1px solid #CCC;
+                            margin: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+     /*end portfolio*/
+
+     /*start contact me*/
+        .contact-me {
+            background-color: #252F31;
+            overflow: hidden;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            text-align: left;
+            .container{
+                
+                .info{
+                    
+                    width: 50%;
+                    margin-right: 5%;
+                    
+                    h2{
+                        color: $backColorwhite;
+                        margin-left: 40px;
+                    }
+                    p{
+                        color: #6A6E71;
+                        margin-left: 40px;
+                    }
+                    address{
+                        color:#6A6E71 ;
+                        margin-left: 40px;
+                    }
+                    p{
+                        strong{
+                            color: $backColorwhite;
+                        }
+                    }
+                }
+                .form{
+                    
+                    width: 45%;
+                    text-align: left;
+                    
+                    & > label{
+                        color: $backColorwhite;
+                        
+                    
+                    }
+                    button {
+                        color: $backColorwhite;
+                        padding: 10px;
+                        background-color: #191E22;
+                        border: 0;
+                        width: 150px;
+                    }
+                    input , textarea {
+                        background-color: #4B5557;
+                        width: 400px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        border: 0;
+                    }
+                }
+            }
+
+        }
+
+      /*end contact me*/
+
+      /*start footer*/
+        footer{
+            background-color: #191E22;
+            color: #6A6E71;
+            overflow: hidden;
+            padding: 20px 0;
+
+            .container{
+                float: left;
+                
+                ul{
+                    margin-left: 40px;
+                    list-style: none;
+                    padding-left: 0;
+                    float:right;
+    
+                    li{
+                        display: inline-block;
+    
+                        img {
+                            width: 25px;
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
+    
+      /*end footer*/
+
+
+      /*start my framework*/
+        .mybutton{
+            border: 2px  solid #2DCC70;
+            color:#2DCC70;
+            padding: 10px;
+            font-size: 15px;
+            background-color: $backColorwhite;
+            margin-top: 25px;
+            text-transform: capitalize;
+            font-weight: bold;
+            width: 150px;
+        }
+    
+        .fl-left{
+            float: left;
+        }
+
+
+      /*end my framework*/
